@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/forms.css">
+        <title>Form</title>
+    </head>
+
+    <body>
+        <form>
+            <p>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" required>
+            </p>
+            <p>
+                <label for="lastname">Apellido</label>
+                <input type="text" id="lastname" required>
+            </p>
+            <p>
+                <label for="age">Edad</label>
+                <input type="number" id="age" min="18" max="80" required>
+            </p>
+            <p>
+                <label for="m">M</label>
+                <input type="radio" id="m" name="sexo">
+
+                <label for="f">F</label>
+                <input type="radio" id="f" name="sexo">
+            </p>
+            <p>
+                <label for="dni">DNI</label>
+                <input type="number" id="dni" minlength="8">
+            </p>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <p>
+                <button>Enviar</button>
+            </p>
+        </form>
+    </body>
+
+</html>
