@@ -1,0 +1,14 @@
+Para que sirve la validacion de formularios?
+    -Para recibir la informacion esperada y que los campos
+    sean rellenados correctamente.
+
+Cuales son los problemas al no validad un formulario?
+    -Que se puede ingresar otro tipo de dato al solicitado,
+    tambien evitaras las inyecciones SQL la cual puede manipular
+    una consulta SQL ajena.
+
+Cuales son los beneficios?
+    -El beneficio de los formularios es que se puede solicitar
+    informacion la cual almacenaremos u/o procesaremos en una base
+    de datos etc.
+    
